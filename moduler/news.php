@@ -1,4 +1,4 @@
-        <section>
+        <section id="news">
             <h3>Nyheter</h3>
             <article>
                 <h4>Første helt ubegripelige spennende nyhet!</h4>

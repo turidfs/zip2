@@ -1,4 +1,4 @@
-        <section class="tracks">
+        <section id="tracks">
             <h3>Tracks</h3>
             <section>
                 <h4>Hybrid Theory</h4>

@@ -13,19 +13,16 @@
 
 	<main>
         <?php include 'moduler/pictureSlide.php'; ?>
-        <section class="news">
             <h2>Siste nytt</h2>
             <?php include 'moduler/news.php'; ?>
-        </section>
-        <section class="events">
-            <h3>Events</h3>
             <?php include 'moduler/eventsList.php'; ?>
-        </section>
 	</main>
 	<aside>
+        <h2>Streams</h2>
 			<?php include 'moduler/twitter.php'; ?>
 			<?php include 'moduler/tracksQuick.php'; ?>
 	</aside>
     <?php include 'moduler/footer.php'; ?>
+    <div class="clearfix"></div>
 </body>
 </html>

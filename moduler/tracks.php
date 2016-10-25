@@ -1,4 +1,4 @@
-        <section class="tracks">
+        <section id="tracks">
             <h2>Tracks</h2>
             <section>
                 <figure>

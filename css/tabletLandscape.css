@@ -2,7 +2,7 @@
 	max-width: 1000px;
 	margin: 0 auto;
 }*/
-
+/*
 main {
 	max-width: 1000px;
 	margin: auto;
@@ -19,7 +19,7 @@ main {
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
-	/*background-color: grey;*/
+	/*background-color: grey;*//*
 }
 
 #main-nav li {
@@ -30,11 +30,9 @@ main {
   width: 80%;
   float: left;
   height: 100%;
-  background: #fff;
 }
 
 aside {
-  background-color: #fff;
   width: 20%;
 
   float: left;
@@ -44,3 +42,4 @@ footer {
   float: left;
   width: 100%;
 }
+*/
