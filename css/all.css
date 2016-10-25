@@ -1,0 +1,179 @@
+/* RESET STYLES */
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* DEFAULT STYLES */
+
+
+
+article, section, div, header, footer, main, nav, ul, li {
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+/* Nullstillinger start */
+/* Nullstillinger slutt */
+
+
+
+/* Størrelser og plassering start */
+/* Størrelser og plassering slutt */
+
+
+
+/* Tekst instillinger start */
+/* Tekst instillinger slutt */
+
+
+
+/* Bilder, filmer, audio start */
+.pictureLeftArrow, .pictureRightArrow, .pictureLeftArrow img, .pictureRightArrow img {
+    position: absolute;
+}
+.pictureLeftArrow, .pictureRightArrow {
+    height: 100%;
+    width: 10%;
+    top: 0;
+}
+.pictureLeftArrow img, .pictureRightArrow img {
+    top: 45%;
+}
+.pictureLeftArrow, .pictureLeftArrow img {
+    left: 0;
+}
+.pictureRightArrow, .pictureRightArrow img {
+    right: 0;
+}
+.slides {
+    max-width: 800px;
+    position: relative;
+}
+.slides img {
+    width: 100%;
+}
+img, video, audio {
+    max-width: 100%;
+
+}
+
+/* Bilder, filmer, audio slutt */
+
+
+
+/* Meny start */
+nav, footer {
+    display: block;
+}
+nav ul, footer ul {
+    display: block;
+    padding: 5px;
+    background-color: purple;
+}
+nav ul li {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: pink;
+    color: purple;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.isHidden {
+    display: none;
+}
+/* Meny slutt */
+
+/* Tweets */
+
+#tweets {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*
+#tweets h3 {
+	width: 100%;
+}
+#tweets article {
+    width: 50%;
+    padding-bottom: 10px;
+}
+*/
+
+/* Footer start */
+/* Footer slutt */
+
+
+
+/* Header start */
+svg.menu {
+    right: 0;
+    position: absolute;
+}
+/* Header slutt */
+
+
+
+/* Farger start */
+body {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+0,ddf1ff+99 */
+  background: pink;
+	position: relative;
+}
+
+header, footer {
+    background-color: silver;
+}
+/* Farger slutt */
