@@ -1,11 +1,9 @@
+/* Nullstillinger start */
 /* RESET STYLES */
-
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
-
-/*
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,68 +23,37 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-} */
+}
 /* HTML5 display-role reset for older browsers */
-/*
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-*/
-/*
 body {
 	line-height: 1;
-} */
-/*
-ol, ul {
-	list-style: none;
-} */
-/*
-blockquote, q {
-	quotes: none;
-}*/
-/*
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}*/
-/*
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}*/
-
+}
 /* DEFAULT STYLES */
-
-
-/*
 article, section, div, header, footer, main, nav, ul, li {
   box-sizing: border-box;
-}*/
-
-
+}
 .clearfix {
     clear: both;
     overflow: auto;
 }
-
-
-
-
-/* Nullstillinger start */
 /* Nullstillinger slutt */
 
 
 
 /* Størrelser og plassering start */
-* {
-    margin: 0;
-    padding: 0;
-}
-#tweets article {
+#tweets article, #blogPoster article {
     margin-bottom: 5px;
     margin-top: 5px;
+}
+#blogPoster article p {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 .fullHeading {
     width: 100%;
@@ -98,18 +65,6 @@ article, section, div, header, footer, main, nav, ul, li {
 #slider figure img {
     width: 100%;
 }
-/* Størrelser og plassering slutt */
-
-
-
-/* Tekst instillinger start */
-h1, h2, h3, h4, h5, h6, p, figcaption, a {
-    padding: 5px;
-}
-/* Tekst instillinger slutt */
-
-
-
 /* Bilder, filmer, audio start */
 .pictureLeftArrow, .pictureRightArrow, .pictureLeftArrow img, .pictureRightArrow img {
     position: absolute;
@@ -139,8 +94,47 @@ img, video, audio {
     max-width: 100%;
 
 }
-
 /* Bilder, filmer, audio slutt */
+#tweets, #tracks, #blogPoster, #events {
+	display: flex;
+	flex-wrap: wrap;
+}
+/* Størrelser og plassering slutt */
+
+
+
+/* Tekst instillinger start */
+h1, h2, h3, h4, h5, h6, p, figcaption, a {
+    padding: 5px;
+}
+h1, h2, .linkTop, footer h3 {
+    text-align: center;
+}
+html {
+    font-size: 16px;
+}
+nav ul li, footer ul li {
+    font-size: 1rem;
+}
+h1 {
+   font-size: 2.25rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.75rem;
+}
+h4, footer h2 {
+    font-size: 1.5rem;
+}
+h5, footer h3 {
+    font-size: 1.25rem;
+}
+h6 {
+    font-size: 1rem;
+}
+/* Tekst instillinger slutt */
 
 
 
@@ -166,17 +160,6 @@ nav ul li {
 }
 /* Meny slutt */
 
-/* Tweets */
-
-#tweets, #tracks, #blogPoster, #events {
-	display: flex;
-	flex-wrap: wrap;
-}
-
-
-/* Footer start */
-/* Footer slutt */
-
 
 
 /* Header start */
@@ -185,6 +168,11 @@ svg.menu {
     position: absolute;
 }
 /* Header slutt */
+
+
+
+/* Footer start */
+/* Footer slutt */
 
 
 
