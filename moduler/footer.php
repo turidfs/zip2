@@ -17,7 +17,7 @@
             <nav>
                 <ul>
                     <li><a href="">Natalie</a></li>
-                    <li><a href="">Fredrik</a></li>
+                    <li><a href="http://www.it-stud.hiof.no/~fredriki/oblig3/oblig3.pdf">Fredrik</a></li>
                     <li><a href="http://www.it-stud.hiof.no/~turidfs/webutvikling2016/oblig3.php">Irene</a></li>
                 </ul>
             </nav>
