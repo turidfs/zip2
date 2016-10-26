@@ -1,9 +1,31 @@
+/* Video, legg inn bilder. Linker, vis linken, legg inn http eller https i alle linker som skal vises.. */
+
+
 /* Nullstillinger start */
 /* Nullstillinger slutt */
 
+a[href^="https"]:link:after, a[href^="https"]:visited:after, a[href^="http"]:link:after, a[href^="http"]:visited:after { content:" [" attr(href) "] "; }
+
+
+
+#slider a img {
+    display: none;
+}
+
+
+#slider, .mySlides {
+    display: block;
+}
+
+svg defs, svg ellipse, svg .screen, svg.menu {
+    display: none;
+}
 
 
 /* Størrelser og plassering start */
+aside, audio {
+    display: none;
+}
 /* Bilder, filmer, audio start */
 /* Bilder, filmer, audio slutt */
 /* Størrelser og plassering slutt */
@@ -25,7 +47,10 @@
 
 
 
-/* Footer start */
+/* Footer start *//*
+footer {
+    display: none;
+}*/
 /* Footer slutt */
 
 

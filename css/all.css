@@ -1,4 +1,7 @@
-/* Nullstillinger start */
+/* Husk at print arver all.css, derfor skal det ikke være noe særlig bakgrunnsfarger eller posisjonering her. Alt av stilsetting som kun skal brukes videre på skjerm settes i mobilePortrait. */
+
+
+/* Nullstillinger start */ /* Disse skal være med i print. */
 /* RESET STYLES */
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -95,22 +98,22 @@ img, video, audio {
 
 }
 /* Bilder, filmer, audio slutt */
-#tweets, #tracks, #blogPoster, #events {
+/*#tweets, #tracks, #blogPoster, #events {
 	display: flex;
 	flex-wrap: wrap;
-}
+} */
 /* Størrelser og plassering slutt */
 
 
 
-/* Tekst instillinger start */
-h1, h2, h3, h4, h5, h6, p, figcaption, a {
+/* Tekst instillinger start */ /* Bruker i utganspunktet standard instillinger for tekst i print. */
+/*h1, h2, h3, h4, h5, h6, p, figcaption, a {
     padding: 5px;
-}
+}*/
 h1, h2, .linkTop, footer h3 {
     text-align: center;
 }
-html {
+/*html {
     font-size: 16px;
 }
 nav ul li, footer ul li {
@@ -133,7 +136,7 @@ h5, footer h3 {
 }
 h6 {
     font-size: 1rem;
-}
+}*/
 /* Tekst instillinger slutt */
 
 
@@ -155,7 +158,7 @@ nav ul li {
     border-radius: 20px;
     margin: 10px;
 }
-.isHidden {
+.isHidden { /* Denne skal være her fordi den gjør slik at menyen ikke vil synes, og det er riktig også for print. */
     display: none;
 }
 /* Meny slutt */
@@ -177,8 +180,8 @@ svg.menu {
 
 
 /* Farger start */
-body {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+0,ddf1ff+99 */
+/*body {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+0,ddf1ff+99 *//*
   background: pink;
 	position: relative;
 }
@@ -190,5 +193,5 @@ main {
 }
 aside {
     background-color: white;
-}
+}*/
 /* Farger slutt */

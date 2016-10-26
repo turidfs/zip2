@@ -13,8 +13,9 @@
                 </radialGradient>
             </defs>
             <ellipse cx="60" cy="50" rx="60" ry="50" fill="url(#grad1)" />
-            <text fill="silver" font-size="45" font-family="Verdana" x="25" y="60">ZiP</text>
-            Sorry, your browser does not support inline SVG.
+            <text class="screen" fill="silver" font-size="45" font-family="Verdana" x="25" y="60">ZiP</text>
+                <text class="print" fill="black" font-size="19" font-family="Verdana" x="25" y="60">Zelda in Park</text>
+            
             </svg>
         </a>
         <svg width="100" height="100" class="menu" id="burger-button" onclick="burgerButton();">

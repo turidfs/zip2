@@ -4,6 +4,19 @@
 
 
 /* Størrelser og plassering start */
+#tweets h3, #tracks h3, #tracks h2, #blogPoster h2, #events h3 {
+	width: 100%;
+}
+#tweets article, #tracks section, #blogPoster article, #events article {
+    width: 50%;
+    /*padding-bottom: 10px;*/
+}
+#news p, #about p {
+    column-count: 2;
+}
+#tracks img {
+    max-width: 100%;
+}
 /* Bilder, filmer, audio start */
 /* Bilder, filmer, audio slutt */
 /* Størrelser og plassering slutt */
@@ -32,21 +45,3 @@
 
 /* Farger start */
 /* Farger slutt */
-
-
-
-
-#tweets h3, #tracks h3, #tracks h2, #blogPoster h2, #events h3 {
-	width: 100%;
-}
-#tweets article, #tracks section, #blogPoster article, #events article {
-    width: 50%;
-    /*padding-bottom: 10px;*/
-}
-
-#news p, #about p {
-    column-count: 2;
-}
-#tracks img {
-    max-width: 100%;
-}

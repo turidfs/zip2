@@ -1,0 +1,107 @@
+/* Nullstillinger start */
+/* Nullstillinger slutt */
+
+
+
+
+svg .print {
+    display: none;
+}
+
+
+
+/* Størrelser og plassering start */
+p, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+aside, .tweets, .tracks {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+.bloggerne {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: row;
+    justify-content: space-around;
+}
+.bloggerne figure {
+    margin: 5px;
+}
+/* Bilder, filmer, audio start */
+/* Bilder, filmer, audio slutt */
+#tweets, #tracks, #blogPoster, #events {
+	display: flex;
+	flex-wrap: wrap;
+}
+/* Størrelser og plassering slutt */
+
+
+
+/* Tekst instillinger start */
+h1, h2, h3, h4, h5, h6, p, figcaption, a {
+    padding: 5px;
+}
+h1, h2, .linkTop, footer h3 {
+    text-align: center;
+}
+html {
+    font-size: 16px;
+}
+nav ul li, footer ul li {
+    font-size: 1rem;
+}
+h1 {
+   font-size: 2.25rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.75rem;
+}
+h4, footer h2 {
+    font-size: 1.5rem;
+}
+h5, footer h3 {
+    font-size: 1.25rem;
+}
+h6 {
+    font-size: 1rem;
+}
+/* Tekst instillinger slutt */
+
+
+
+/* Meny start */
+/* Meny slutt */
+
+
+
+/* Header start */
+/* Header slutt */
+
+
+
+/* Footer start */
+/* Footer slutt */
+
+
+
+/* Farger start */
+body {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+0,ddf1ff+99 */
+  background: pink;
+	position: relative;
+}
+header, footer {
+    background-color: silver;
+}
+main {
+    background-color: white;
+}
+aside {
+    background-color: white;
+}
+/* Farger slutt */
