@@ -4,8 +4,7 @@
             <h2>Check us out here!</h2>
             <nav>
                 <ul>
-										<li><a href="rss.xml">RSS Feed:
-										<img src="image/pic_rss.gif" width="36" height="14"></a></li>
+					<li><a href="rss.xml"><img src="image/pic_rss.gif" alt="RSS Feed" width="36" height="14"></a></li>
                     <li><a href="http://www.twitter.com">Twitter</a></li>
                     <li><a href="http://www.facebook.com">Facebook</a></li>
                     <li><a href="http://www.youtube.com">Youtube</a></li>
@@ -18,7 +17,7 @@
             <nav>
                 <ul>
                     <li><a href="">Natalie</a></li>
-                    <li><a href="">Fredrik</a></li>
+                    <li><a href="http://www.it-stud.hiof.no/~fredriki/oblig3/oblig3.pdf">Fredrik</a></li>
                     <li><a href="http://www.it-stud.hiof.no/~turidfs/webutvikling2016/oblig3.php">Irene</a></li>
                 </ul>
             </nav>
