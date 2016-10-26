@@ -1,22 +1,5 @@
-<script>
-    burgerButton(){
-        alert("I am an alert box!");
-    }
-
-</script>
         <a href="index.php">
-            <svg height="100" width="150" class="logo">
-            <defs>
-                <radialGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-                    <stop offset="0%" style="stop-color:rgb(75,0,130);stop-opacity:1" />
-                    <stop offset="100%" style="stop-color:rgb(255,182,193);stop-opacity:1" />
-                </radialGradient>
-            </defs>
-            <ellipse cx="60" cy="50" rx="60" ry="50" fill="url(#grad1)" />
-            <text class="screen" fill="silver" font-size="45" font-family="Verdana" x="25" y="60">ZiP</text>
-                <text class="print" fill="black" font-size="19" font-family="Verdana" x="25" y="60">Zelda in Park</text>
-            
-            </svg>
+            <img src="image/zipheader.svg" alt="A text that says Zelda in park" id="zipheader" />
         </a>
         <svg width="100" height="100" class="menu" id="burger-button" onclick="burgerButton();">
             <circle cx="50" cy="50" r="50" fill="purple" />
