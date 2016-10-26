@@ -1,36 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
   <channel>
-    <title>Title of your Feed</title>
-    <link>http://www.yourwebsite.com/</link>
-    <description>This is the description of your Feed.
-    Keep it to one or two sentences.</description>
+    <title>Zelda in Park</title>
+    <link>http://www.it-stud.hiof.no/~fredriki/oblig3/zip/index.php</link>
+    <description>WELCOME TO THE MOST AWESOME BAND EVAAAH!!</description>
     <item>
-      <title>Article 3</title>
-      <link>example.com/3</link>
-      <guid>example.com/3</guid>
-      <pubDate>Wed, 27 Nov 2013 13:20:00 GMT</pubDate>
-      <description>My newest article.</description>
+      <title>Første helt ubegripelige spennende nyhet!</title>
+      <link>http://www.it-stud.hiof.no/~fredriki/oblig3/zip/social.php</link>
+      <guid>zip/social.php</guid>
+      <pubDate>Wed, 27 Nov 2015 13:20:00 GMT</pubDate>
+      <description>This is story about love and hatred.</description>
     </item>
     <item>
-      <title>Article 3</title>
-      <link>example.com/3</link>
-      <guid>example.com/3</guid>
-      <pubDate>Wed, 27 Nov 2013 13:20:00 GMT</pubDate>
-      <description>My newest article.</description>
+      <title>Andre helt ubegripelige spennende nyhet!</title>
+      <link>http://www.it-stud.hiof.no/~fredriki/oblig3/zip/social.php</link>
+      <guid>zip/social.php</guid>
+      <pubDate>Mon, 12 Nov 2014 13:20:00 GMT</pubDate>
+      <description>Newest Event</description>
     </item>
     <item>
-      <title>Article 3</title>
-      <link>example.com/3</link>
-      <guid>example.com/3</guid>
+      <title>Tredje helt ubegripelige spennende nyhet!</title>
+      <link>zip/social.php</link>
+      <guid>zip/social.php</guid>
       <pubDate>Wed, 27 Nov 2013 13:20:00 GMT</pubDate>
-      <description>My newest article.</description>
+      <description>You wont believe what happend then...</description>
     </item>
     <item>
-      <title>Article 3</title>
-      <link>example.com/3</link>
-      <guid>example.com/3</guid>
-      <pubDate>Wed, 27 Nov 2013 13:20:00 GMT</pubDate>
+      <title>Fjerde helt ubegripelige spennende nyhet!</title>
+      <link>zip/social.php</link>
+      <guid>zip/social.php</guid>
+      <pubDate>Fri, 10 Nov 2012 13:20:00 GMT</pubDate>
       <description>My newest article.</description>
     </item>
 
