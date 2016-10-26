@@ -13,22 +13,30 @@
         <h2>Bloggerne</h2><br />
         <section class="bloggerne">
             <!-- <h2 class="fullHeading">Bloggerne</h2><br />--> <!-- Lagt til br fordi den ødelegger knappene -->
-            <a href="http"></a><figure>
-                <img src="image/blogSmall.png" />
-                <figcaption>Felles</figcaption>
-            </figure>
-            <a href="http"></a><figure>
-                <img src="image/blogSmall.png" />
-                <figcaption>Natalie</figcaption>
-            </figure>
-            <a href="http"></a><figure>
-                <img src="image/blogSmall.png" />
-                <figcaption>Fredrik</figcaption>
-            </figure>
-            <a href="http"></a><figure>
-                <img src="image/blogSmall.png" />
-                <figcaption>Irene</figcaption>
-            </figure>
+            <a href="http">
+                <figure>
+                    <img src="image/blogSmall.png" />
+                    <figcaption>Felles</figcaption>
+                </figure>
+            </a>
+            <a href="http">
+                <figure>
+                    <img src="image/blogSmall.png" />
+                    <figcaption>Natalie</figcaption>
+                </figure>
+            </a>
+            <a href="http">
+                <figure>
+                    <img src="image/blogSmall.png" />
+                    <figcaption>Fredrik</figcaption>
+                </figure>
+            </a>
+            <a href="http">
+                <figure>
+                    <img src="image/blogSmall.png" />
+                    <figcaption>Irene</figcaption>
+                </figure>
+            </a>
         </section>
         
         <section id="blogPoster">
